@@ -8,5 +8,5 @@ setup(
     author_email = 'ttg6nx@virginia.edu', 
     description = 'Package description', 
     long_description = open('README.txt').read(), 
-    install_requires = ['pandas'],
+    packages = ['mypackage'],
 )
