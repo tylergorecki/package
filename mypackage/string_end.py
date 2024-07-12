@@ -3,3 +3,6 @@ def ret_last_n(word:str, n:int):
     if len(word) <= n: return "length of word must be greater than n"
 
     return word[-n:]
+
+def foo():
+    print(x)
